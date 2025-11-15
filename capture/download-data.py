@@ -26,7 +26,8 @@ def get_timestamp():
   return now.strftime("%Y%m%d_%H%M%S")
 
 def get_filename(cam_name, timestamp):
-  return f"../data/{cam_name}/{timestamp}.jpg"
+  script_dir = Path(__file__).resolve().parent
+  return f"{script_dir}/../data/{cam_name}/{timestamp}.jpg"
 
 timestamp = get_timestamp()
 
