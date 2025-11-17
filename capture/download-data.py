@@ -8,11 +8,11 @@ cam_ids = {
   # "ddl_slu_bed_1": "57d798335d414",
   # "ddl_slu_bed_2": "57d72abdbcbdb",
   # "ddl_slu_central": "5aec9329bc357",
-  # "ddl_ballard_heart": "5c3263db7e03e",
-  # "ddl_ballard_big_outdoor": "5c32596b65526",
-  # "ddl_ballard_small_outdoor": "5c32636731455",
-  # "ddl_ballard_indoor_1": "5c32618141523",
-  # "ddl_ballard_indoor_2": "5c3265e523e02"
+  "ddl_ballard_heart": "5c3263db7e03e",
+  "ddl_ballard_big_outdoor": "5c32596b65526",
+  "ddl_ballard_small_outdoor": "5c32636731455",
+  "ddl_ballard_indoor_1": "5c32618141523",
+  "ddl_ballard_indoor_2": "5c3265e523e02"
 }
 
 def feed_link(cam_id):
